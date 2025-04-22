@@ -1,0 +1,28 @@
+Questão 03) Verifique o tempo de execução do programa da questão 2, parte 2, considerando: 1 thread, 2 threads, 4
+threads, 8 threads e 16 threads. Descreva o hardware (processador, memória e número de núcleos,
+tamanho da matriz usada nos testes e o tempo de execução para cada teste)
+
+
+Máquina utilizada para o exercício:
+    - Processador:
+        Nome do modelo:           12th Gen Intel(R) Core(TM) i5-1235U
+        Família da CPU:           6
+        Modelo:                   154
+        Thread(s) per núcleo:     2
+        Núcleo(s) por soquete:    10
+        Soquete(s):               1
+        Step:                     4
+
+    -RAM:
+        Memory: total: 8 GiB
+
+Matriz Utilizada:
+    Matriz 200x200 aleatória
+
+Tempo por threads:
+    
+    1:  Tempo de execução com 1 threads: 0.014463 segundos
+    2:  Tempo de execução com 2 threads: 0.008696 segundos
+    4:  Tempo de execução com 4 threads: 0.008162 segundos
+    8:  Tempo de execução com 8 threads: 0.008169 segundos
+    16: Tempo de execução com 16 threads: 0.009339 segundos

@@ -97,6 +97,7 @@ void shell(){
     }
     else {
        printf("Executando em segundo plano: PID: [%d]\n", pid);
+       segundoPlano=false;
     }
   }  
 }
